@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{21441FB9-59A1-40FB-9C85-1D968ED883DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{047FC278-7703-45FB-8E39-27EE6D8319A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottleNet", "src\BottleNet\BottleNet.csproj", "{4537F08B-3DF7-4046-BD3B-63927B2DDE73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottleClientExample", "example\BottleClientExample\BottleClientExample.csproj", "{8E9B6A28-CA34-49DB-AC0D-D000970ED35E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottleServerExample", "example\BottleServerExample\BottleServerExample.csproj", "{D707E431-4C83-4037-A1A7-748D26951A67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E9B6A28-CA34-49DB-AC0D-D000970ED35E} = {047FC278-7703-45FB-8E39-27EE6D8319A7}
+		{D707E431-4C83-4037-A1A7-748D26951A67} = {047FC278-7703-45FB-8E39-27EE6D8319A7}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E9B6A28-CA34-49DB-AC0D-D000970ED35E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9B6A28-CA34-49DB-AC0D-D000970ED35E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9B6A28-CA34-49DB-AC0D-D000970ED35E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9B6A28-CA34-49DB-AC0D-D000970ED35E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D707E431-4C83-4037-A1A7-748D26951A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D707E431-4C83-4037-A1A7-748D26951A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D707E431-4C83-4037-A1A7-748D26951A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D707E431-4C83-4037-A1A7-748D26951A67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
